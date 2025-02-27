@@ -53,6 +53,7 @@
             battle.TabIndex = 7;
             battle.Text = "Start Battle?";
             battle.UseVisualStyleBackColor = true;
+            battle.Click += battle_Click;
             // 
             // currentTeam
             // 
